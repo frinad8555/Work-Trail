@@ -1,0 +1,23 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+.npm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
